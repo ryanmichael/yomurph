@@ -1,0 +1,64 @@
+body {
+    font-family:Helvetica Neue;
+    background-color:#ffffff;
+    padding:14px;
+    color:#000000;
+}
+
+h1 {
+    font-size:xx-large;
+}
+
+section {
+    padding:14px 0 14px 0;
+}
+
+nav {
+    display:inline-block;
+    padding:20px 0 20px 0;
+}
+
+nav p {
+    float:left;
+    display:inline-block;
+    margin-right:10px;
+}
+
+a {
+    text-decoration:none;
+}
+
+footer {
+    color:#a3a3a3;
+}
+
+@media only screen and (max-width: 1024px) {
+    body:before {
+        content:"iPad H";
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body:before {
+        content:"iPad V";
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    body:before {
+        content:"iPhone V";
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body:before {
+        content:"iPhone(old) H";
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body:before {
+        content:"iPhone V";
+    }
+}
+
